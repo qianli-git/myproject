@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Page</title>
+</head>
+<body>
+          
+        <div id="header"style="height:200px;width:800px;" >
+            <p>长宽</p>  
+        <h1  style="margin-bottom:0;text-align:center">Fly and Lanch your Dream</h1><br>
+        </div>
+
+        <div id="resume refresher"style="height:200px;width:800px;" >
+            
+            <div id="keywords-editing"style ="height:200px;width:400px;float:left;">
+                
+                <textarea  id="skill keywords"style="height:100px;width:200px;">input your skill keyword</textarea>
+                <input type="submit" name="word to sentence transfer"/> 
+    
+            </div>
+    
+            <div id="summery your skills"style ="height:200px;width:400px;float:left;">
+                    
+                <textarea  id="sentences"style="height:100px;width:400px;">good sentences for your resume</textarea>
+                
+            </div>
+        </div>
+<br>
+    <div > 
+        <div id="resumeupload" style ="height:200px;width:200px;float:left;">
+            <form action="upload.php" method="post" enctype="multipart/form-data">
+                <input type="file" name="filename" /><br>
+                <br>
+                <input type="submit" name="extract"/><br>
+                <br>
+            </form>
+        </div>
+      
+             
+        <div id="keywords-editing"style ="height:200px;width:400px;float:left;">
+                
+            <textarea  id="keywords-editing"style="height:200px;width:200px;">keywords editing</textarea>
+
+        </div>
+
+        <div id="Candidate Position"style ="height:200px;width:400px;float:left;">
+                
+            <textarea  id="Candidate Position"style="height:200px;width:200px;">Candidate Position</textarea>
+            
+        </div>
+        <br>
+    </div>     
+    <br>
+
+    <div id="search">
+         <label >Job Search:</label><br>
+            <input type="search" name="keywords" placeholder="keywords/Position" />
+            <select>
+                <option value="keywords">keywords</option>
+                <option value="Position">Position</option>
+            </select>               
+            <input type="search" name="location" placeholder="location "/>
+            <input type="date" name="Posttime" placeholder="keywords "/>
+            <input type="submit" name="extract"  />
+    </div>
+</body>
+</html>
